@@ -748,7 +748,7 @@ SteamCommunity.prototype.getUserInventoryContents = function(userID, appID, cont
 			}
 
 			if(body.more_start){
-				var startAsset = ""
+				var startAsset = null
 
 				if(body.last_assetid){
 					startAsset = body.last_assetid
