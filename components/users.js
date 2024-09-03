@@ -704,7 +704,8 @@ SteamCommunity.prototype.getUserInventoryContents = function(userID, appID, cont
 				"partner": userID.getSteamID64(),
 				"appid": appID,
 				"contextid": contextID,
-				"start": start
+				"start": start,
+				"l": language
 			},
 			"json": true
 		}, function(err, response, body) {
